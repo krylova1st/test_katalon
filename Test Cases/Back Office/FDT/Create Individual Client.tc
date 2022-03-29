@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Individual Client</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>com.workwell.plugins.qadeputy.katalon.QaDebutyTestCaseIntegration</productName>
+      <properties>
+         <entry>
+            <key>QA_Deputy_TESTSUITEID</key>
+            <value>691</value>
+         </entry>
+         <entry>
+            <key>QA_Deputy_TESTCASENAME</key>
+            <value>Sample Test Case</value>
+         </entry>
+         <entry>
+            <key>QA_Deputy_TESTSUITENAME</key>
+            <value>Sample Test Suite</value>
+         </entry>
+         <entry>
+            <key>QA_Deputy_TESTLASTTESTRUN</key>
+         </entry>
+         <entry>
+            <key>QA_Deputy_TESTCASEID</key>
+            <value>66379</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>40838cc1-ee79-4f71-90e8-9e51a23e8803</testCaseGuid>
+</TestCaseEntity>

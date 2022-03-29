@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Date of Birth_dp</name>
+   <tag></tag>
+   <elementGuidId>2ba248f1-ba21-4a49-be31-fcd8a2ec4048</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;dp&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='dp']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>DD.MM.YYYY</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>dp</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-valid is-invalid ng-touched</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;app&quot;]/app-crm-layout[1]/main[@class=&quot;app-main&quot;]/div[@class=&quot;wrapper&quot;]/app-client-individual-application-create[1]/form[@class=&quot;page has-sidebar has-sidebar-expand-xl ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;page-inner page-inner-fill&quot;]/div[@class=&quot;onboarding&quot;]/div[@class=&quot;onboarding-body&quot;]/div[@class=&quot;card card-fluid ng-untouched ng-pristine ng-invalid&quot;]/app-individual-checksum-form[1]/form[@class=&quot;ng-invalid ng-dirty ng-touched ng-submitted&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;form-row&quot;]/div[@class=&quot;form-group col-12 col-md-4 has-error&quot;]/app-datepicker[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;input-group input-group-alt&quot;]/input[@class=&quot;form-control ng-pristine ng-valid is-invalid ng-touched&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='dp']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-datepicker/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'DD.MM.YYYY' and @name = 'dp']</value>
+   </webElementXpaths>
+</WebElementEntity>

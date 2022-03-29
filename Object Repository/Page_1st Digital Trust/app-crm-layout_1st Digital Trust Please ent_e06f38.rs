@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>app-crm-layout_1st Digital Trust Please ent_e06f38</name>
+   <tag></tag>
+   <elementGuidId>f9b15032-07cc-405b-8c94-6a63310418c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>app-crm-layout</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-crm-layout</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>app-crm-layout</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1st Digital Trust Please enter at least 3 symbols CRMAccountingAsset Mgmt.ComplianceBillingSystemAUAdmin UserAdmin User Admin User  Profile LogoutCRM DashboardRelationship ManagementClientsLegal EntitiesOnboardingClientsIndividual ClientInstitutional ClientSystemAgreementsClient TagsPartnersService PortfolioNew Individual Client ApplicationAccount HolderFirst NameMiddle Name(if any) Last / Family NameDate of BirthDBA/AliasGenderCitizenshipContinueContact InformationTelephoneEmail Residential Address  Correspondence Address Persons Related to the Entity Add Please click on the &quot;Add&quot; button to add related personTax Residency Information Add CountryTax Identification NumberExternal Bank Accounts Add Bank AccountBankLocal / Short codeBank Branch CodeProducts &amp; ServicesCustodyTrustAttachmentsDrag and drop your files here- or -Browse FilesAllowed formats: PNG, JPG and PDF. Maximum 25MBCase NotesDescribe, in your own words, the intended nature of relationshipOther notes or remarksAccount Holder</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;app&quot;]/app-crm-layout[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-crm-layout</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//app-crm-layout[(text() = '1st Digital Trust Please enter at least 3 symbols CRMAccountingAsset Mgmt.ComplianceBillingSystemAUAdmin UserAdmin User Admin User  Profile LogoutCRM DashboardRelationship ManagementClientsLegal EntitiesOnboardingClientsIndividual ClientInstitutional ClientSystemAgreementsClient TagsPartnersService PortfolioNew Individual Client ApplicationAccount HolderFirst NameMiddle Name(if any) Last / Family NameDate of BirthDBA/AliasGenderCitizenshipContinueContact InformationTelephoneEmail Residential Address  Correspondence Address Persons Related to the Entity Add Please click on the &quot;Add&quot; button to add related personTax Residency Information Add CountryTax Identification NumberExternal Bank Accounts Add Bank AccountBankLocal / Short codeBank Branch CodeProducts &amp; ServicesCustodyTrustAttachmentsDrag and drop your files here- or -Browse FilesAllowed formats: PNG, JPG and PDF. Maximum 25MBCase NotesDescribe, in your own words, the intended nature of relationshipOther notes or remarksAccount Holder' or . = '1st Digital Trust Please enter at least 3 symbols CRMAccountingAsset Mgmt.ComplianceBillingSystemAUAdmin UserAdmin User Admin User  Profile LogoutCRM DashboardRelationship ManagementClientsLegal EntitiesOnboardingClientsIndividual ClientInstitutional ClientSystemAgreementsClient TagsPartnersService PortfolioNew Individual Client ApplicationAccount HolderFirst NameMiddle Name(if any) Last / Family NameDate of BirthDBA/AliasGenderCitizenshipContinueContact InformationTelephoneEmail Residential Address  Correspondence Address Persons Related to the Entity Add Please click on the &quot;Add&quot; button to add related personTax Residency Information Add CountryTax Identification NumberExternal Bank Accounts Add Bank AccountBankLocal / Short codeBank Branch CodeProducts &amp; ServicesCustodyTrustAttachmentsDrag and drop your files here- or -Browse FilesAllowed formats: PNG, JPG and PDF. Maximum 25MBCase NotesDescribe, in your own words, the intended nature of relationshipOther notes or remarksAccount Holder')]</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Date of birth_form-control date-mask _31cb38</name>
+   <tag></tag>
+   <elementGuidId>5450dc3f-7809-48f6-9921-f3f09a921c39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.date-mask.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>DD.MM.YYYY</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>mask</name>
+      <type>Main</type>
+      <value>00.00.0000</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control date-mask ng-untouched ng-pristine ng-valid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;app&quot;]/app-crm-layout[1]/main[@class=&quot;app-main&quot;]/div[@class=&quot;wrapper&quot;]/app-client-individual-application-create[1]/form[@class=&quot;page has-sidebar has-sidebar-expand-xl ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;page-inner page-inner-fill&quot;]/div[@class=&quot;onboarding&quot;]/div[@class=&quot;onboarding-body&quot;]/div[@class=&quot;card card-fluid ng-untouched ng-pristine ng-invalid&quot;]/app-individual-checksum-form[1]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;form-row&quot;]/div[@class=&quot;form-group col-12 col-md-4&quot;]/app-input-with-date-mask[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/input[@class=&quot;form-control date-mask ng-untouched ng-pristine ng-valid&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-input-with-date-mask/input</value>
+   </webElementXpaths>
+</WebElementEntity>
