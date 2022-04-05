@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Individual Client</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c8e46eb-754e-4013-9201-854428ae7b3a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4f704e82-b065-4add-b16c-b16d08e62412</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
