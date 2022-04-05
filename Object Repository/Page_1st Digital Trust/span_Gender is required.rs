@@ -6,12 +6,12 @@
    <elementGuidId>64f9e4e8-b10f-4f32-a853-57816d6d9f00</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.form-group.col-6.col-md-4.has-error > bfv-messages > span.invalid-feedback.ng-star-inserted</value>
+         <key>XPATH</key>
+         <value>//span[text()='Gender is required']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[1]/following::span[3]</value>
+         <key>CSS</key>
+         <value>div.form-group.col-6.col-md-4.has-error > bfv-messages > span.invalid-feedback.ng-star-inserted</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

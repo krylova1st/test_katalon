@@ -6,12 +6,12 @@
    <elementGuidId>98631ffd-84b3-4e19-b30b-646ba28d0b92</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.invalid-feedback.ng-star-inserted</value>
+         <key>XPATH</key>
+         <value>//span[text()='Date of Birth is required']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Date of Birth'])[1]/following::span[1]</value>
+         <key>CSS</key>
+         <value>span.invalid-feedback.ng-star-inserted</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

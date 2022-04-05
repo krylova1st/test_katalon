@@ -6,12 +6,12 @@
    <elementGuidId>5b850d87-aa8c-48cf-8c52-00e6b6bee55a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h4.message-title</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Service Portfolio'])[1]/following::h4[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.message-title</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

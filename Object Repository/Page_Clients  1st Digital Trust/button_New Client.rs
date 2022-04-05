@@ -24,13 +24,6 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-haspopup</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
@@ -65,6 +58,13 @@
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;app&quot;]/app-crm-layout[1]/main[@class=&quot;app-main&quot;]/div[@class=&quot;wrapper&quot;]/app-clients-list[1]/div[@class=&quot;page&quot;]/div[@class=&quot;page-inner&quot;]/header[@class=&quot;page-title-bar&quot;]/div[@class=&quot;d-flex justify-content-between&quot;]/div[@class=&quot;btn-toolbar&quot;]/div[@class=&quot;dropdown&quot;]/button[@class=&quot;dropdown-toggle btn btn-primary&quot;]</value>
    </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -84,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Integrations'])[1]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Service Portfolio'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +113,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/header/div/div/div/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' New Client ' or . = ' New Client ')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Integrations'])[1]/following::button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -30,4 +30,11 @@
    </integratedEntity>
    <comment></comment>
    <testCaseGuid>40838cc1-ee79-4f71-90e8-9e51a23e8803</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>db2f04ed-fa36-4023-84c8-83d100c794cf</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
 </TestCaseEntity>

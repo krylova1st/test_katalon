@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://fdt-backoffice.smarttrust.welton.ee/')
-
-WebUI.setText(findTestObject('Object Repository/Page_Login  Legacy Trust Company/input_E-Mail_Username'), 'admin@ltc.internal')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login  Legacy Trust Company/input_Password'), '9S3yURSOuAr5mT4+vExh6A==')
-
-WebUI.click(findTestObject('Object Repository/Page_Login  Legacy Trust Company/button_Sign in'))
+WebUI.callTestCase(findTestCase('Back Office/FDT/Login (Positive)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard  1st Digital Trust/span_Choose the function that you would lik_8bbc3a'))
 
@@ -38,24 +30,34 @@ WebUI.click(findTestObject('Object Repository/Page_Clients  1st Digital Trust/a_
 WebUI.verifyElementText(findTestObject('Object Repository/Page_1st Digital Trust/h4_New Individual Client Application'), 
     'New Individual Client Application')
 
-WebUI.setText(findTestObject('Object Repository/Page_1st Digital Trust/input_First Name_form-control ng-untouched _9706e8'), 
+WebUI.setText(findTestObject('Object Repository/Page_1st Digital Trust/input_First name_form-control ng-untouched _7830ed'), 
     'Individual')
 
-WebUI.click(findTestObject('Object Repository/Page_1st Digital Trust/input_First Name_form-control ng-untouched _9706e8'))
+WebUI.setText(findTestObject('Object Repository/Page_1st Digital Trust/input_(if any)_form-control ng-untouched ng-pristine ng-valid'), 
+    'Test')
 
-WebUI.setText(findTestObject('Page_1st Digital Trust/input_First Name_form-control ng-untouched _9706e8'), 'Creating')
+WebUI.setText(findTestObject('Object Repository/Page_1st Digital Trust/input_Last  Family Name_form-control ng-untouched ng-pristine ng-invalid'), 
+    'Creating')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_1st Digital Trust/input_First Name_form-control ng-untouched _9706e8'), 
+WebUI.sendKeys(findTestObject('Object Repository/Page_1st Digital Trust/input_Last  Family Name_form-control ng-untouched ng-pristine ng-invalid'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_1st Digital Trust/div_Please correct validation errors on the_86a02b'), 
-    0)
+    30)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_1st Digital Trust/span_Date of Birth is required'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_1st Digital Trust/span_Date of Birth is required'), 30)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_1st Digital Trust/span_Gender is required'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_1st Digital Trust/span_Gender is required'), 30)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_1st Digital Trust/span_Citizenship is required'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_1st Digital Trust/span_Citizenship is required'), 30)
 
-WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Page_1st Digital Trust/input_Date of Birth_dp'), '', 0)
+WebUI.setText(findTestObject('Object Repository/Page_1st Digital Trust/input_Date of Birth_dp'), '01.01.2000')
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_1st Digital Trust/input_Date of Birth_dp'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/Page_1st Digital Trust/span_Gender_ng-arrow-wrapper'))
+
+WebUI.click(findTestObject('Object Repository/Page_1st Digital Trust/div_Male'))
+
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_1st Digital Trust/span_Gender is required'), 30)
 
